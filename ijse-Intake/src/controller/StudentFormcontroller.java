@@ -14,7 +14,7 @@ public class StudentFormcontroller {
     public JFXButton btnAddStudent;
     public JFXTextField txtStudentEmail;
     public JFXTextField txtNIC;
-    
+
 
     public void btnStudentTableOnAction(ActionEvent actionEvent) {
     }
