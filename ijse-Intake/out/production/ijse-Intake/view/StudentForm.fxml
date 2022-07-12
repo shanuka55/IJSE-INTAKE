@@ -16,7 +16,7 @@
          <image>
             <Image url="@../assets/blue_abstract_background_310971.jpg" />
          </image></ImageView>
-      <Text layoutX="86.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Id :">
+      <Text layoutX="86.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Id :">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -63,7 +63,7 @@
             <FontAwesomeIconView glyphName="REFRESH" size="15" wrappingWidth="21.857142448425293" />
          </graphic>
       </JFXButton>
-      <JFXComboBox fx:id="cmbStudentId" focusColor="BLACK" layoutX="234.0" layoutY="69.0" prefHeight="31.0" prefWidth="235.0" unFocusColor="BLACK" />
+      <JFXComboBox fx:id="cmbStudentId" focusColor="BLACK" layoutX="234.0" layoutY="40.0" prefHeight="31.0" prefWidth="235.0" unFocusColor="BLACK" />
       <FontAwesomeIconView fill="#222222" glyphName="HOME" layoutX="14.0" layoutY="432.0" size="30" />
       <JFXButton fx:id="btnAddStudent" buttonType="RAISED" layoutX="560.0" layoutY="154.0" onAction="#btnAddOnAction" prefHeight="41.0" prefWidth="183.0" style="-fx-background-color: #2bfbff;" text="Add Stuent">
          <font>
@@ -82,5 +82,11 @@
          </font>
       </Text>
       <JFXTextField fx:id="txtNIC" focusColor="WHITE" layoutX="230.0" layoutY="295.0" prefHeight="31.0" prefWidth="235.0" unFocusColor="BLACK" />
+      <Text layoutX="84.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Id :">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="txtStuentId" focusColor="WHITE" layoutX="233.0" layoutY="82.0" prefHeight="31.0" prefWidth="235.0" unFocusColor="BLACK" />
    </children>
 </AnchorPane>
